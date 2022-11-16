@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+     background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(8,8,59,0.933193260214242) 52%, rgba(3,151,181,1) 100%); 
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+
+.parent h1{
+    letter-spacing: 2;
+    font-size: 3rem;
+}
+
+.error_message{
+    font-size: 1.3rem;
+}
+
+.each_input_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    gap: 1.5em;
+}
+
+
+.each_input_div label{
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+}
+
+select{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    border: 3px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1em;
+    font-size: 1.2rem;
+    padding: .8em 1.5em;
+    background-color: rgba(8,8,59,0.933193260214242);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
